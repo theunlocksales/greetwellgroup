@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact GreetWell Group for premium agricultural export inquiries. Get quotes, place orders, or discuss requirements.">
+    <title>Contact Us - GreetWell Group</title>
+    
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ========== HEADER ========== -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">
+                <i class="fas fa-leaf"></i>
+                <span>GreetWell<strong>Group</strong></span>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="about.html" class="nav__link">About Us</a></li>
+                    <li class="nav__item"><a href="products.html" class="nav__link">Products</a></li>
+                    <li class="nav__item"><a href="services.html" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="contact.html" class="nav__link active-link">Contact</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+
+            <a href="contact.html" class="btn btn--primary nav__btn">Get Quote</a>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ========== PAGE HEADER ========== -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header__content">
+                <nav class="breadcrumb">
+                    <a href="index.html"><i class="fas fa-home"></i> Home</a>
+                    <i class="fas fa-chevron-right"></i>
+                    <span>Contact</span>
+                </nav>
+                <h1 class="page-header__title">Get in <span class="text-gradient">Touch</span></h1>
+                <p class="page-header__description">Let's discuss how we can serve your premium export needs</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT INFO CARDS ========== -->
+    <section class="contact-info section">
+        <div class="container">
+            <div class="contact-info__grid">
+                <!-- Address Card -->
+                <div class="contact-info__card">
+                    <div class="contact-info__icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3 class="contact-info__title">Visit Our Office</h3>
+                    <p class="contact-info__text">C/o Adwani Publishing House</p>
+                    <p class="contact-info__text">N-87, Hingana MIDC</p>
+                    <p class="contact-info__text">Nagpur - 441110</p>
+                    <p class="contact-info__text">Maharashtra, India</p>
+                    <a href="https://maps.google.com/?q=Hingana+MIDC+Nagpur+441110" target="_blank" class="contact-info__link">
+                        <i class="fas fa-directions"></i>
+                        <span>Get Directions</span>
+                    </a>
+                </div>
+
+                <!-- Phone Card -->
+                <div class="contact-info__card">
+                    <div class="contact-info__icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <h3 class="contact-info__title">Call Us Anytime</h3>
+                    <p class="contact-info__text">Available Mon - Sat</p>
+                    <p class="contact-info__text">9:00 AM - 6:00 PM IST</p>
+                    <a href="tel:+919588479681" class="contact-info__phone">+91 9588479681</a>
+                    <a href="tel:+919588479681" class="contact-info__link">
+                        <i class="fas fa-phone"></i>
+                        <span>Call Now</span>
+                    </a>
+                </div>
+
+                <!-- Email Card -->
+                <div class="contact-info__card">
+                    <div class="contact-info__icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3 class="contact-info__title">Email Us</h3>
+                    <p class="contact-info__text">Get a response within</p>
+                    <p class="contact-info__text">24 hours for all inquiries</p>
+                    <a href="mailto:greetwellimpexperts@gmail.com" class="contact-info__email">greetwellimpexperts@gmail.com</a>
+                    <a href="mailto:greetwellimpexperts@gmail.com" class="contact-info__link">
+                        <i class="fas fa-paper-plane"></i>
+                        <span>Send Email</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT FORM & MAP ========== -->
+    <section class="contact-main section section--gray">
+        <div class="container">
+            <div class="contact-main__grid">
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <div class="contact-form__header">
+                        <span class="section__badge">Send Message</span>
+                        <h2 class="section__title">Request a <span class="text-gradient">Quote</span></h2>
+                        <p class="section__description">
+                            Fill out the form below and our team will get back to you within 24 hours
+                        </p>
+                    </div>
+
+                    <form id="contactForm" class="form">
+                        <div class="form__row">
+                            <div class="form__group">
+                                <label for="name" class="form__label">
+                                    <i class="fas fa-user"></i> Full Name *
+                                </label>
+                                <input type="text" id="name" name="name" class="form__input" placeholder="Enter your full name" required>
+                            </div>
+
+                            <div class="form__group">
+                                <label for="company" class="form__label">
+                                    <i class="fas fa-building"></i> Company Name
+                                </label>
+                                <input type="text" id="company" name="company" class="form__input" placeholder="Your company name">
+                            </div>
+                        </div>
+
+                        <div class="form__row">
+                            <div class="form__group">
+                                <label for="email" class="form__label">
+                                    <i class="fas fa-envelope"></i> Email Address *
+                                </label>
+                                <input type="email" id="email" name="email" class="form__input" placeholder="your.email@example.com" required>
+                            </div>
+
+                            <div class="form__group">
+                                <label for="phone" class="form__label">
+                                    <i class="fas fa-phone"></i> Phone Number *
+                                </label>
+                                <input type="tel" id="phone" name="phone" class="form__input" placeholder="+91 00000 00000" required>
+                            </div>
+                        </div>
+
+                        <div class="form__group">
+                            <label for="country" class="form__label">
+                                <i class="fas fa-globe"></i> Country *
+                            </label>
+                            <input type="text" id="country" name="country" class="form__input" placeholder="Your country" required>
+                        </div>
+
+                        <div class="form__group">
+                            <label for="subject" class="form__label">
+                                <i class="fas fa-tag"></i> Subject *
+                            </label>
+                            <select id="subject" name="subject" class="form__input" required>
+                                <option value="">Select inquiry type</option>
+                                <option value="quote">Request Quote</option>
+                                <option value="product">Product Inquiry</option>
+                                <option value="bulk">Bulk Order</option>
+                                <option value="partnership">Partnership Opportunity</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form__group">
+                            <label for="message" class="form__label">
+                                <i class="fas fa-comment-alt"></i> Your Message *
+                            </label>
+                            <textarea id="message" name="message" rows="6" class="form__input form__textarea" placeholder="Tell us about your requirements, product preferences, quantity, delivery location, etc." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn--primary btn--large btn--block">
+                            <i class="fas fa-paper-plane"></i>
+                            <span>Send Message</span>
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Map & Additional Info -->
+                <div class="contact-sidebar">
+                    <!-- Google Map -->
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.0!2d79.0882!3d21.0938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjHCsDA1JzM3LjciTiA3OcKwMDUnMTcuNSJF!5e0!3m2!1sen!2sin!4v1234567890"
+                            width="100%" 
+                            height="300" 
+                            style="border:0; border-radius: 1rem;" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+
+                    <!-- Business Hours -->
+                    <div class="business-hours">
+                        <div class="business-hours__icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3 class="business-hours__title">Business Hours</h3>
+                        <ul class="business-hours__list">
+                            <li>
+                                <span class="day">Monday - Friday</span>
+                                <span class="time">9:00 AM - 6:00 PM</span>
+                            </li>
+                            <li>
+                                <span class="day">Saturday</span>
+                                <span class="time">9:00 AM - 2:00 PM</span>
+                            </li>
+                            <li>
+                                <span class="day">Sunday</span>
+                                <span class="time">Closed</span>
+                            </li>
+                        </ul>
+                        <p class="business-hours__note">
+                            <i class="fas fa-info-circle"></i>
+                            Emergency inquiries? WhatsApp us 24/7!
+                        </p>
+                    </div>
+
+                    <!-- Quick Contact -->
+                    <div class="quick-contact">
+                        <a href="https://wa.me/919588479681" class="quick-contact__btn whatsapp" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>WhatsApp Chat</span>
+                        </a>
+                        <a href="tel:+919588479681" class="quick-contact__btn call">
+                            <i class="fas fa-phone"></i>
+                            <span>Call Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== WHY CONTACT US ========== -->
+    <section class="contact-features section">
+        <div class="container">
+            <div class="section__header">
+                <span class="section__badge">Our Commitment</span>
+                <h2 class="section__title">Why Choose <span class="text-gradient">Our Services</span></h2>
+                <p class="section__description">Experience excellence in every interaction</p>
+            </div>
+
+            <div class="contact-features__grid">
+                <div class="contact-feature">
+                    <div class="contact-feature__icon">
+                        <i class="fas fa-shipping-fast"></i>
+                    </div>
+                    <h3 class="contact-feature__title">Timely Delivery</h3>
+                    <p class="contact-feature__description">
+                        We deliver product's shipment within committed time with efficient logistics network.
+                    </p>
+                </div>
+
+                <div class="contact-feature">
+                    <div class="contact-feature__icon">
+                        <i class="fas fa-tag"></i>
+                    </div>
+                    <h3 class="contact-feature__title">Best Price</h3>
+                    <p class="contact-feature__description">
+                        We provide you best prices with finest quality. Just ask for a quote today.
+                    </p>
+                </div>
+
+                <div class="contact-feature">
+                    <div class="contact-feature__icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3 class="contact-feature__title">Finest Quality</h3>
+                    <p class="contact-feature__description">
+                        We are committed to supply best quality product to our customer always.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CTA ========== -->
+    <section class="cta section">
+        <div class="container">
+            <div class="cta__container">
+                <div class="cta__content">
+                    <h2 class="cta__title">Ready to Place Your Order?</h2>
+                    <p class="cta__description">Our team is standing by to assist you with quotes and order processing</p>
+                </div>
+                <div class="cta__buttons">
+                    <a href="tel:+919588479681" class="btn btn--white btn--large">
+                        <i class="fas fa-phone"></i><span>Call: +91 9588479681</span>
+                    </a>
+                    <a href="https://wa.me/919588479681" class="btn btn--outline-white btn--large" target="_blank">
+                        <i class="fab fa-whatsapp"></i><span>WhatsApp Us</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__container">
+                <div class="footer__col footer__col--about">
+                    <a href="index.html" class="footer__logo">
+                        <i class="fas fa-leaf"></i>
+                        <span>GreetWell<strong>Group</strong></span>
+                    </a>
+                    <p class="footer__description">Premium agricultural exports from India to the world.</p>
+                    <div class="footer__social">
+                        <a href="#" class="footer__social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="footer__social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="footer__social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="footer__social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/919588479681" class="footer__social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer__col">
+                    <h3 class="footer__title">Quick Links</h3>
+                    <ul class="footer__list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__col">
+                    <h3 class="footer__title">Our Products</h3>
+                    <ul class="footer__list">
+                        <li><a href="products.html">Premium Turmeric</a></li>
+                        <li><a href="products.html">Fresh Onions</a></li>
+                        <li><a href="products.html">Fresh Potatoes</a></li>
+                        <li><a href="products.html">Fresh Tomatoes</a></li>
+                        <li><a href="products.html">Green Chilies</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__col">
+                    <h3 class="footer__title">Contact Info</h3>
+                    <ul class="footer__contact">
+                        <li><i class="fas fa-map-marker-alt"></i><span>C/o Adwani Publishing House, N-87, Hingana MIDC, Nagpur - 441110</span></li>
+                        <li><i class="fas fa-phone"></i><span>+91 9588479681</span></li>
+                        <li><i class="fas fa-envelope"></i><span>greetwellimpexperts@gmail.com</span></li>
+                        <li><i class="fas fa-clock"></i><span>Mon - Sat: 9:00 AM - 6:00 PM</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p>&copy; <span id="currentYear">2025</span> GreetWell Group. All Rights Reserved.</p>
+                <p>Crafted with <i class="fas fa-heart"></i> for Excellence</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="scrolltop" id="scroll-top"><i class="fas fa-arrow-up"></i></button>
+    <script src="script.js"></script>
+
+</body>
+</html>

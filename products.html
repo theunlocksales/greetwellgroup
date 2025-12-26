@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Premium quality agricultural products exported from India - Turmeric, Onions, Potatoes, Tomatoes, and more.">
+    <title>Our Products - GreetWell Group</title>
+    
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ========== HEADER ========== -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">
+                <i class="fas fa-leaf"></i>
+                <span>GreetWell<strong>Group</strong></span>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="about.html" class="nav__link">About Us</a></li>
+                    <li class="nav__item"><a href="products.html" class="nav__link active-link">Products</a></li>
+                    <li class="nav__item"><a href="services.html" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+
+            <a href="contact.html" class="btn btn--primary nav__btn">Get Quote</a>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ========== PAGE HEADER ========== -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header__content">
+                <nav class="breadcrumb">
+                    <a href="index.html"><i class="fas fa-home"></i> Home</a>
+                    <i class="fas fa-chevron-right"></i>
+                    <span>Products</span>
+                </nav>
+                <h1 class="page-header__title">Our <span class="text-gradient">Premium Products</span></h1>
+                <p class="page-header__description">Export quality agricultural products sourced directly from trusted farmers</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PRODUCT FILTER ========== -->
+    <section class="product-filter section">
+        <div class="container">
+            <div class="filter__buttons">
+                <button class="filter__btn active" data-filter="all">
+                    <i class="fas fa-th"></i>
+                    <span>All Products</span>
+                </button>
+                <button class="filter__btn" data-filter="spices">
+                    <i class="fas fa-mortar-pestle"></i>
+                    <span>Spices</span>
+                </button>
+                <button class="filter__btn" data-filter="vegetables">
+                    <i class="fas fa-carrot"></i>
+                    <span>Vegetables</span>
+                </button>
+                <button class="filter__btn" data-filter="organic">
+                    <i class="fas fa-leaf"></i>
+                    <span>Organic</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PRODUCTS GRID ========== -->
+    <section class="products-page section">
+        <div class="container">
+            <div class="products__grid">
+                <!-- Product 1 -->
+                <div class="product__card" data-category="spices">
+                    <div class="product__image">
+                        <img src="image1.jpg" alt="Premium Turmeric">
+                        <span class="product__badge">Featured</span>
+                        <div class="product__overlay">
+                            <a href="contact.html" class="btn btn--white btn--icon">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product__content">
+                        <div class="product__category">
+                            <i class="fas fa-mortar-pestle"></i>
+                            <span>Spices</span>
+                        </div>
+                        <h3 class="product__title">Premium Turmeric</h3>
+                        <p class="product__description">
+                            High curcumin content turmeric powder and whole turmeric. Organically grown with 
+                            vibrant color and superior quality.
+                        </p>
+                        <ul class="product__features">
+                            <li><i class="fas fa-check"></i> Curcumin: 3-5%</li>
+                            <li><i class="fas fa-check"></i> Organic Certified</li>
+                            <li><i class="fas fa-check"></i> Lab Tested</li>
+                        </ul>
+                        <div class="product__footer">
+                            <div class="product__info">
+                                <span class="product__label">Available:</span>
+                                <span class="product__value">In Stock</span>
+                            </div>
+                            <a href="contact.html" class="btn btn--secondary">Get Quote</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product__card" data-category="vegetables">
+                    <div class="product__image">
+                        <img src="https://images.unsplash.com/photo-1618512496248-a07fe83aa8cb?w=600&q=80" alt="Fresh Onions">
+                        <span class="product__badge">Best Seller</span>
+                        <div class="product__overlay">
+                            <a href="contact.html" class="btn btn--white btn--icon">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product__content">
+                        <div class="product__category">
+                            <i class="fas fa-carrot"></i>
+                            <span>Vegetables</span>
+                        </div>
+                        <h3 class="product__title">Fresh Onions</h3>
+                        <p class="product__description">
+                            Premium quality red and white onions with extended shelf life. Grade A quality 
+                            perfect for export markets.
+                        </p>
+                        <ul class="product__features">
+                            <li><i class="fas fa-check"></i> Grade A Quality</li>
+                            <li><i class="fas fa-check"></i> Long Shelf Life</li>
+                            <li><i class="fas fa-check"></i> Fresh Harvest</li>
+                        </ul>
+                        <div class="product__footer">
+                            <div class="product__info">
+                                <span class="product__label">Available:</span>
+                                <span class="product__value">In Stock</span>
+                            </div>
+                            <a href="contact.html" class="btn btn--secondary">Get Quote</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product__card" data-category="vegetables">
+                    <div class="product__image">
+                        <img src="https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=600&q=80" alt="Fresh Potatoes">
+                        <div class="product__overlay">
+                            <a href="contact.html" class="btn btn--white btn--icon">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product__content">
+                        <div class="product__category">
+                            <i class="fas fa-carrot"></i>
+                            <span>Vegetables</span>
+                        </div>
+                        <h3 class="product__title">Fresh Potatoes</h3>
+                        <p class="product__description">
+                            High-quality potatoes suitable for various culinary applications. Multiple varieties 
+                            available for different markets.
+                        </p>
+                        <ul class="product__features">
+                            <li><i class="fas fa-check"></i> Multiple Varieties</li>
+                            <li><i class="fas fa-check"></i> Premium Grade</li>
+                            <li><i class="fas fa-check"></i> Clean & Sorted</li>
+                        </ul>
+                        <div class="product__footer">
+                            <div class="product__info">
+                                <span class="product__label">Available:</span>
+                                <span class="product__value">In Stock</span>
+                            </div>
+                            <a href="contact.html" class="btn btn--secondary">Get Quote</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product__card" data-category="vegetables">
+                    <div class="product__image">
+                        <img src="https://images.unsplash.com/photo-1592924357228-91a4daadcfea?w=600&q=80" alt="Fresh Tomatoes">
+                        <div class="product__overlay">
+                            <a href="contact.html" class="btn btn--white btn--icon">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product__content">
+                        <div class="product__category">
+                            <i class="fas fa-carrot"></i>
+                            <span>Vegetables</span>
+                        </div>
+                        <h3 class="product__title">Fresh Tomatoes</h3>
+                        <p class="product__description">
+                            Vine-ripened tomatoes with rich flavor and vibrant color. Carefully selected and 
+                            packed for international shipping.
+                        </p>
+                        <ul class="product__features">
+                            <li><i class="fas fa-check"></i> Vine Ripened</li>
+                            <li><i class="fas fa-check"></i> Rich Flavor</li>
+                            <li><i class="fas fa-check"></i> Export Ready</li>
+                        </ul>
+                        <div class="product__footer">
+                            <div class="product__info">
+                                <span class="product__label">Available:</span>
+                                <span class="product__value">In Stock</span>
+                            </div>
+                            <a href="contact.html" class="btn btn--secondary">Get Quote</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product__card" data-category="vegetables">
+                    <div class="product__image">
+                        <img src="image3.jpg" alt="Green Chilies">
+                        <span class="product__badge">Hot Seller</span>
+                        <div class="product__overlay">
+                            <a href="contact.html" class="btn btn--white btn--icon">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product__content">
+                        <div class="product__category">
+                            <i class="fas fa-carrot"></i>
+                            <span>Vegetables</span>
+                        </div>
+                        <h3 class="product__title">Green Chilies</h3>
+                        <p class="product__description">
+                            Fresh green chilies with perfect heat levels. Available in various sizes and 
+                            pungency levels for different markets.
+                        </p>
+                        <ul class="product__features">
+                            <li><i class="fas fa-check"></i> Multiple Varieties</li>
+                            <li><i class="fas fa-check"></i> Controlled Heat</li>
+                            <li><i class="fas fa-check"></i> Fresh & Crisp</li>
+                        </ul>
+                        <div class="product__footer">
+                            <div class="product__info">
+                                <span class="product__label">Available:</span>
+                                <span class="product__value">In Stock</span>
+                            </div>
+                            <a href="contact.html" class="btn btn--secondary">Get Quote</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product__card" data-category="spices">
+                    <div class="product__image">
+                        <img src="https://images.unsplash.com/photo-1599639832411-e5a1ca171c83?w=600&q=80" alt="Red Chili Powder">
+                        <div class="product__overlay">
+                            <a href="contact.html" class="btn btn--white btn--icon">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product__content">
+                        <div class="product__category">
+                            <i class="fas fa-mortar-pestle"></i>
+                            <span>Spices</span>
+                        </div>
+                        <h3 class="product__title">Red Chili Powder</h3>
+                        <p class="product__description">
+                            Premium quality red chili powder with vibrant color and consistent heat. Perfect 
+                            for culinary and industrial use.
+                        </p>
+                        <ul class="product__features">
+                            <li><i class="fas fa-check"></i> Vibrant Color</li>
+                            <li><i class="fas fa-check"></i> Pure & Natural</li>
+                            <li><i class="fas fa-check"></i> Quality Tested</li>
+                        </ul>
+                        <div class="product__footer">
+                            <div class="product__info">
+                                <span class="product__label">Available:</span>
+                                <span class="product__value">In Stock</span>
+                            </div>
+                            <a href="contact.html" class="btn btn--secondary">Get Quote</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PRODUCT FEATURES ========== -->
+    <section class="product-benefits section section--gray">
+        <div class="container">
+            <div class="section__header">
+                <span class="section__badge">Product Benefits</span>
+                <h2 class="section__title">Why Choose Our <span class="text-gradient">Products</span></h2>
+                <p class="section__description">Every product comes with our quality guarantee</p>
+            </div>
+
+            <div class="benefits__grid">
+                <div class="benefit__card">
+                    <div class="benefit__icon">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <h3 class="benefit__title">Lab Tested Quality</h3>
+                    <p class="benefit__description">
+                        All products undergo rigorous laboratory testing for quality, purity, and safety standards.
+                    </p>
+                </div>
+
+                <div class="benefit__card">
+                    <div class="benefit__icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3 class="benefit__title">Organic Options</h3>
+                    <p class="benefit__description">
+                        USDA and EU certified organic products available for health-conscious markets.
+                    </p>
+                </div>
+
+                <div class="benefit__card">
+                    <div class="benefit__icon">
+                        <i class="fas fa-truck-loading"></i>
+                    </div>
+                    <h3 class="benefit__title">Custom Packaging</h3>
+                    <p class="benefit__description">
+                        Flexible packaging options to meet your specific requirements and market needs.
+                    </p>
+                </div>
+
+                <div class="benefit__card">
+                    <div class="benefit__icon">
+                        <i class="fas fa-file-certificate"></i>
+                    </div>
+                    <h3 class="benefit__title">Certified Documents</h3>
+                    <p class="benefit__description">
+                        Complete documentation including phytosanitary certificates and quality reports.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CTA ========== -->
+    <section class="cta section">
+        <div class="container">
+            <div class="cta__container">
+                <div class="cta__content">
+                    <h2 class="cta__title">Interested in Our Products?</h2>
+                    <p class="cta__description">Request a quote or product samples to experience the quality firsthand</p>
+                </div>
+                <div class="cta__buttons">
+                    <a href="contact.html" class="btn btn--white btn--large">
+                        <i class="fas fa-envelope"></i><span>Request Quote</span>
+                    </a>
+                    <a href="tel:+919588479681" class="btn btn--outline-white btn--large">
+                        <i class="fas fa-phone"></i><span>+91 9588479681</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__container">
+                <div class="footer__col footer__col--about">
+                    <a href="index.html" class="footer__logo">
+                        <i class="fas fa-leaf"></i>
+                        <span>GreetWell<strong>Group</strong></span>
+                    </a>
+                    <p class="footer__description">Premium agricultural exports from India to the world.</p>
+                    <div class="footer__social">
+                        <a href="#" class="footer__social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="footer__social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="footer__social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="footer__social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/919588479681" class="footer__social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer__col">
+                    <h3 class="footer__title">Quick Links</h3>
+                    <ul class="footer__list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__col">
+                    <h3 class="footer__title">Our Products</h3>
+                    <ul class="footer__list">
+                        <li><a href="products.html">Premium Turmeric</a></li>
+                        <li><a href="products.html">Fresh Onions</a></li>
+                        <li><a href="products.html">Fresh Potatoes</a></li>
+                        <li><a href="products.html">Fresh Tomatoes</a></li>
+                        <li><a href="products.html">Green Chilies</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__col">
+                    <h3 class="footer__title">Contact Info</h3>
+                    <ul class="footer__contact">
+                        <li><i class="fas fa-map-marker-alt"></i><span>C/o Adwani Publishing House, N-87, Hingana MIDC, Nagpur - 441110</span></li>
+                        <li><i class="fas fa-phone"></i><span>+91 9588479681</span></li>
+                        <li><i class="fas fa-envelope"></i><span>greetwellimpexperts@gmail.com</span></li>
+                        <li><i class="fas fa-clock"></i><span>Mon - Sat: 9:00 AM - 6:00 PM</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p>&copy; <span id="currentYear">2025</span> GreetWell Group. All Rights Reserved.</p>
+                <p>Crafted with <i class="fas fa-heart"></i> for Excellence</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="scrolltop" id="scroll-top"><i class="fas fa-arrow-up"></i></button>
+    <script src="script.js"></script>
+
+</body>
+</html>
